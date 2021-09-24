@@ -1,0 +1,15 @@
+GET http://localhost:/api/NamesForKittens
+
+###
+
+POST http://localhost:5000/api/catFacts Content-Type: application/json
+
+{
+"NamesForKittens": "Linn Alessandra"
+}
+
+###
+
+DELETE http://localhost:5000/api/catFacts/NamesForKittens Content-Type: application/json
+
+###
