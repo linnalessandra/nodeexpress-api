@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Cats</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./logic.js"></script>
+   
+</head>
+
+<body>
+    <h1>Cat Facts!</h1>
+    <button onClick="getCatFact()" id="randomButton">Press the button for facts!</button>
+    <h2 id="Fact"></h2>
+    <input type="text" id="newName" placeholder="Type and share your name ideas for kittens!">
+
+    <div class="buttons">
+        <button onClick="addCatName()" id="addCatName">Add name</button>
+        <button onClick="deleteCat()" id="deleteCatName">Remove name</button>
+    </div>
+
+    <h4>Some good names for cats are:</h4>
+    <h3 id="kittenName">
+        <ul id="kittenName">
+        </ul>
+    </h3>
+
+
+</body>
+
+</html>
